@@ -15,10 +15,9 @@ Route::view('profile', 'profile')
 
 
 Route::get('/register', Register::class)->name('register');
-use App\Http\Livewire\UserList;
 
-Route::middleware(['auth'])->group(function () {
-    Route::get('/users', UserList::class);
+Route::get('/about', function(){
+    return view('about');
 });
 
 require __DIR__.'/auth.php';
