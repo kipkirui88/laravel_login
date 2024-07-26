@@ -223,5 +223,6 @@ php artisan serve
 ```
 
 Now, you can visit `http://localhost:8000/login` in your browser and test your login system.
+![My Project Logo](simple.PNG)
 
 Feel free to ask if you have any questions or run into any issues!
